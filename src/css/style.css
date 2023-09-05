@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  max-width: 1440px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.header {
+  background: url("../img/headerbg2.png");
+  padding-top: 29px;
+}
+
+.header__nav {
+  display: flex;
+  padding: 0px 137px;
+  align-items: center;
+}
+
+.header__nav--menu {
+  display: flex;
+  margin-left: 261px;
+}
+
+.header__nav--menuItem a {
+  color: #fff;
+  opacity: 0.88;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 42px;
+}
+
+.header__nav--createAccountButton {
+  margin-left: auto;
+  width: 152px;
+  height: 56px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.14px;
+  background-color: unset;
+  border: 1.5px solid #777f96;
+  color: #fff9f8;
+}
+
+.header__text {
+  margin-top: 135px;
+  text-align: center;
+}
+
+.header__text--title {
+  color: #fff;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: -0.62px;
+}
+
+.header__text--des {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.88;
+}
+
+.header__text--form {
+  margin-top: 80px;
+  text-align: center;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__nav">
+        <img src="./src/img/Logo.svg" alt="" class="header__nav--logo" />
+
+        <ul class="header__nav--menu">
+          <li class="header__nav--menuItem"><a href="#">find a trip</a></li>
+          <li class="header__nav--menuItem"><a href="#">find a trip</a></li>
+          <li class="header__nav--menuItem"><a href="#">find a trip</a></li>
+          <li class="header__nav--menuItem"><a href="#">find a trip</a></li>
+        </ul>
+
+        <button class="header__nav--createAccountButton">Create Account</button>
+      </div>
+
+      <div class="header__text">
+        <h1 class="header__text--title">Exploring The World In Comfort.</h1>
+        <p class="header__text--des">
+          You do not have the right to remain silent… let us know <br />
+          what it takes to challenge you
+        </p>
+      </div>
+
+      <form action="" class="header__text--form">
+        <label for="header__text--formSearchDes">
+          <img src="./src/img/search-icon.svg" alt="" />
+        </label>
+        <input
+          type="text"
+          placeholder="Search destination"
+          id="header__text--formSearchDes"
+        />
+
+        <label for="header__text--formLocation">
+          <img src="./src/img/local-icon.svg" alt="" />
+        </label>
+        <input
+          type="text"
+          placeholder="C. Location"
+          id="header__text--formLocation"
+        />
+
+        <input
+          type="text"
+          placeholder="2 persons"
+          id="header__text--formPersons"
+        />
+        <label for="header__text--formPersons"
+          ><img src="./src/img/down-arrow-icon.svg" alt=""
+        /></label>
+
+        <button>Search</button>
+      </form>
+    </div>
+  </body>
+</html>
